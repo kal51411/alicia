@@ -1,0 +1,17 @@
+archive   -> saving snapshots & backups 
+config    -> configurations for Alicia
+database  -> db for Alicia to remember things 
+doc       -> your documentation files pdfs & etc
+models    -> trained models variant of LLMs or VLM etc
+notes     -> notes about stuff so you dont forget
+packages  -> compiled versions for different operating systems
+resources -> resources for the application
+
+src/core/cmd   -> commands the AI can execute
+src/core/logic -> logics that the AI uses when processing
+src/core/utils -> additional files
+src/core/voice -> speaking & voice detection & etc
+src/gui        -> UI of the application
+
+main.py -> main python that executes the entire thing
+test    -> used for testing before implementing it
