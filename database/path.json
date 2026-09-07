@@ -1,0 +1,44 @@
+{
+  "linux": {
+    "browser": "google-chrome-stable",
+    "google": "https://www.google.com",
+    "youtube": "https://www.youtube.com",
+    "github": "https://www.github.com",
+    "terminal": "x-terminal-emulator",
+    "notepad": "gedit",
+    "text editor": "gedit",
+    "code": "code",
+    "vs code": "code",
+    "files": "xdg-open .",
+    "file manager": "xdg-open .",
+    "calculator": "gnome-calculator"
+  },
+  "windows": {
+    "browser": "start chrome",
+    "google": "https://www.google.com",
+    "youtube": "https://www.youtube.com",
+    "github": "https://www.github.com",
+    "terminal": "wt",
+    "notepad": "notepad.exe",
+    "text editor": "notepad.exe",
+    "code": "code",
+    "vs code": "code",
+    "files": "explorer .",
+    "file manager": "explorer .",
+    "calculator": "calc.exe"
+  },
+  "darwin": {
+    "browser": "open -a 'Google Chrome'",
+    "google": "https://www.google.com",
+    "youtube": "https://www.youtube.com",
+    "github": "https://www.github.com",
+    "terminal": "open -a Terminal",
+    "notepad": "open -a TextEdit",
+    "text editor": "open -a TextEdit",
+    "code": "code",
+    "vs code": "code",
+    "files": "open .",
+    "file manager": "open .",
+    "calculator": "open -a Calculator"
+  }
+}

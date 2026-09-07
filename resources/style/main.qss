@@ -1,0 +1,192 @@
+/* =========================================================================
+   Alicia AI Assistant - Dark Neon Glassmorphism Theme
+   ========================================================================= */
+
+QMainWindow {
+    background-color: #0c1017;
+    color: #e6edf3;
+    font-family: 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+}
+
+QWidget#centralWidget {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #0d121d, stop:0.5 #0f1726, stop:1 #090e18);
+}
+
+/* Header & Status */
+#headerFrame {
+    background-color: rgba(22, 31, 47, 0.7);
+    border-radius: 12px;
+    border: 1px solid #1e2c40;
+    padding: 6px;
+}
+
+#titleLabel {
+    color: #00f0ff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#statusLabel {
+    color: #94a3b8;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Telemetry Pills */
+QLabel.pillLabel {
+    background-color: #141c2b;
+    color: #38bdf8;
+    border: 1px solid #1f2e44;
+    border-radius: 10px;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Alicia Voice Orb / Canvas */
+#orbWidget {
+    background: transparent;
+}
+
+/* Conversation Scroll Area */
+QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+#chatContainer {
+    background: transparent;
+}
+
+/* Message Bubbles */
+QFrame.userBubble {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #1e293b, stop:1 #273549);
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 8px 12px;
+}
+
+QFrame.assistantBubble {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+                                stop:0 #0f1e2e, stop:1 #13273d);
+    border: 1px solid #00f0ff55;
+    border-radius: 14px;
+    padding: 8px 12px;
+}
+
+QLabel.bubbleSender {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 2px;
+}
+
+QLabel.bubbleText {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #f1f5f9;
+}
+
+/* Bottom Input Bar */
+#inputFrame {
+    background-color: rgba(18, 25, 38, 0.85);
+    border-radius: 16px;
+    border: 1px solid #223044;
+    padding: 4px;
+}
+
+QLineEdit#commandInput {
+    background-color: #101622;
+    color: #f8fafc;
+    border: 1px solid #1e293b;
+    border-radius: 14px;
+    padding: 8px 14px;
+    font-size: 13px;
+    selection-background-color: #00f0ff;
+    selection-color: #000000;
+}
+
+QLineEdit#commandInput:focus {
+    border: 1px solid #00f0ff;
+    background-color: #121927;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #182233;
+    color: #e2e8f0;
+    border: 1px solid #29384d;
+    border-radius: 12px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #202d44;
+    border: 1px solid #00f0ff;
+    color: #00f0ff;
+}
+
+QPushButton:pressed {
+    background-color: #151e2e;
+}
+
+QPushButton#micButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #00d2ff, stop:1 #0099ff);
+    color: #000000;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+QPushButton#micButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #38e1ff, stop:1 #33adff);
+}
+
+QPushButton#micButton[active="true"] {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                stop:0 #ff3366, stop:1 #ff0033);
+    color: #ffffff;
+}
+
+QPushButton#sendButton {
+    background-color: #00f0ff;
+    color: #050b14;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 7px 14px;
+}
+
+QPushButton#sendButton:hover {
+    background-color: #38f4ff;
+}
+
+/* Scrollbar */
+QScrollBar:vertical {
+    background: transparent;
+    width: 6px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #253347;
+    border-radius: 3px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #00f0ff;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
